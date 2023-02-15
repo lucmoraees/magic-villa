@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "BdVSmOU7TmN9cnw/rWJVcuSszTwhxaSz7YVYW/KfK5EwHm0oQdnBOStoFYXqRP1saPmANx1eTLp+Ozctl2nc0w==",
+  "success": true,
+  "projectFilePath": "/Users/Lucas.Carvalho2/Desktop/estudos/DotNET/magic-villa-api/magic-villa-api/magic-villa-api.csproj",
+  "expectedPackageFiles": [
+    "/Users/Lucas.Carvalho2/.nuget/packages/microsoft.aspnetcore.openapi/7.0.3/microsoft.aspnetcore.openapi.7.0.3.nupkg.sha512",
+    "/Users/Lucas.Carvalho2/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/Lucas.Carvalho2/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/Users/Lucas.Carvalho2/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "/Users/Lucas.Carvalho2/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "/Users/Lucas.Carvalho2/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "/Users/Lucas.Carvalho2/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.4.0/swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
