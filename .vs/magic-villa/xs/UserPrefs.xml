@@ -1,18 +1,39 @@
-﻿<Properties StartupConfiguration="{C3C91733-C2BC-44C3-8B4F-521D3703B2F5}|https">
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.magic-villa-api FirstBuild="True" PreferredExecutionTarget="/Applications/Microsoft Edge.app" />
+﻿<Properties StartupConfiguration="{C3C91733-C2BC-44C3-8B4F-521D3703B2F5}|http">
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/lucmoraes/Library/CloudStorage/OneDrive-EY/Desktop/estudos/csharp/magic-villa-api/magic-villa-web/Controllers/HomeController.cs" relfile="magic-villa-web/Controllers/HomeController.cs" line="28" column="1" />
+      <Breakpoint file="/Users/lucmoraes/Library/CloudStorage/OneDrive-EY/Desktop/estudos/csharp/magic-villa-api/magic-villa-api/Controllers/v1/VillaNumberApiController.cs" relfile="magic-villa-api/Controllers/v1/VillaNumberApiController.cs" line="111" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="magic-villa-api/Controllers/v1/VillaApiController.cs">
+    <Files>
+      <File FileName="magic-villa-api/Program.cs" Line="5" Column="47" />
+      <File FileName="magic-villa-api/Controllers/v1/VillaApiController.cs" Line="102" Column="42" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="magic-villa" expanded="True" selected="True" />
+          <Node name="magic-villa" expanded="True">
+            <Node name="magic-villa-api">
+              <Node name="Controllers" expanded="True">
+                <Node name="v1" expanded="True">
+                  <Node name="VillaApiController.cs" selected="True" />
+                </Node>
+                <Node name="v2" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="magic-villa-web">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Services" expanded="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.magic-villa-web PreferredExecutionTarget="/Applications/Microsoft Edge.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.magic-villa-api PreferredExecutionTarget="/Applications/Microsoft Edge.app" />
+  <MultiItemStartupConfigurations />
 </Properties>

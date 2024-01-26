@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
-    <Nullable>enable</Nullable>
+    <Nullable>disable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>magic_villa_api</RootNamespace>
   </PropertyGroup>
@@ -11,7 +11,63 @@
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.3" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageReference Include="Microsoft.AspNetCore.JsonPatch" Version="8.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="7.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.4">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.14" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="7.0.0" />
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.15" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="5.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Controllers\" />
+    <None Remove="Models\" />
+    <None Remove="Models\Dto\" />
+    <None Remove="Data\" />
+    <None Remove="Microsoft.AspNetCore.JsonPatch" />
+    <None Remove="Microsoft.AspNetCore.Mvc.NewtonsoftJson" />
+    <None Remove="Serilog.AspNetCore" />
+    <None Remove="Serilog.Sinks.File" />
+    <None Remove="Migrations\" />
+    <None Remove="Respository\" />
+    <None Remove="Respository\IRepository\" />
+    <None Remove="Models\Dto\VillaDTO\" />
+    <None Remove="Models\Dto\VillaNumberDTO\" />
+    <None Remove="Models\Dto\AuthDTO\" />
+    <None Remove="Controllers\v1\" />
+    <None Remove="Controllers\v2\" />
+    <None Remove="Models\Dto\UserDTO\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="Models\" />
+    <Folder Include="Models\" />
+    <Folder Include="Models\Dto\" />
+    <Folder Include="Data\" />
+    <Folder Include="Migrations\" />
+    <Folder Include="Respository\" />
+    <Folder Include="Respository\IRepository\" />
+    <Folder Include="Models\Dto\VillaDTO\" />
+    <Folder Include="Models\Dto\VillaNumberDTO\" />
+    <Folder Include="Models\Dto\AuthDTO\" />
+    <Folder Include="Controllers\v1\" />
+    <Folder Include="Controllers\v2\" />
+    <Folder Include="Models\Dto\UserDTO\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Migrations\20230324204050_AddVillaTable.cs" />
+    <Compile Remove="Migrations\20230324204050_AddVillaTable.Designer.cs" />
+    <Compile Remove="Migrations\ApplicationDbContextModelSnapshot.cs" />
+    <Compile Remove="Data\VillaStore.cs" />
+  </ItemGroup>
 </Project>
